@@ -1,15 +1,12 @@
 package edu.tju.singleton;
 
-// ¶öººÊ½
+// ï¿½ï¿½ï¿½ï¿½Ê½
 public class Singleton {
 	final private static Singleton instance = new Singleton();
     
     // some attributes and methods
     
 	private Singleton() {
-		if (instance != null) {
-			throw new RuntimeException("instantiate more than one time");
-		}
 		// do something
 	}
 	
@@ -18,7 +15,7 @@ public class Singleton {
 	}
 }
 
-// ÀÁººÊ½
+// ï¿½ï¿½ï¿½ï¿½Ê½
 public class Singleton {
 	private static Singleton instance = null;
 	
